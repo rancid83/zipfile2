@@ -3,7 +3,7 @@ services:
   spark-master:
     image: bitnami/spark:latest
     ports:
-      - '8080:8080'
+      - '18080:8080'
       - '7077:7077'
     environment:
       - SPARK_MODE=master
